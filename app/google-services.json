@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "964246190170",
+    "project_id": "ventasl",
+    "storage_bucket": "ventasl.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:964246190170:android:14449f340ed52bca230063",
+        "android_client_info": {
+          "package_name": "com.example.ventaslibros"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCOIUQUDnGgQnqQc8ToTFFFwbKH0zXWJp8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
