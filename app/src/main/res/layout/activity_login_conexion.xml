@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:background="@drawable/background"
     android:layout_height="match_parent"
+    android:background="@drawable/background"
     tools:context=".LoginConexion">
 
     <TextView
@@ -56,32 +57,18 @@
         tools:layout_editor_absoluteX="19dp"
         tools:layout_editor_absoluteY="462dp" />
 
-    <com.google.android.material.button.MaterialButton
-        android:id="@+id/loginbtn"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_below="@id/password"
-        android:layout_centerHorizontal="true"
-        android:layout_marginStart="20dp"
-        android:layout_marginTop="42dp"
-        android:layout_marginEnd="20dp"
-        android:layout_marginBottom="20dp"
-        android:backgroundTint="@color/design_default_color_secondary"
-        android:text="@string/loginbtn"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="145dp"
-        tools:layout_editor_absoluteY="556dp" />
-
     <TextView
         android:id="@+id/forgotpass"
-        android:layout_width="167dp"
-        android:layout_height="28dp"
-        android:layout_below="@id/loginbtn"
-        android:layout_centerHorizontal="true"
-        android:layout_marginStart="20dp"
-        android:layout_marginTop="104dp"
-        android:layout_marginEnd="20dp"
-        android:layout_marginBottom="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="153dp"
+        android:layout_marginTop="535dp"
+        android:layout_marginEnd="92dp"
+        android:layout_marginBottom="167dp"
         android:text="Forgot password?"
         android:textColor="@color/white"
         tools:ignore="MissingConstraints"
@@ -90,14 +77,34 @@
 
     <TextView
         android:id="@+id/others"
-        android:layout_width="143dp"
-        android:layout_height="42dp"
-        android:layout_above="@id/socialicons"
-        android:layout_marginBottom="28dp"
+        android:layout_width="169dp"
+        android:layout_height="40dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="80dp"
+        android:layout_marginBottom="75dp"
         android:text="or sign in with"
+        android:textColor="@color/white"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="148dp"
+        tools:layout_editor_absoluteY="51dp" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/loginbtn"
+        android:layout_width="142dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="83dp"
+        android:layout_marginTop="258dp"
+        android:layout_marginEnd="186dp"
+        android:layout_marginBottom="20dp"
+        android:backgroundTint="@color/design_default_color_secondary"
+        android:text="@string/loginbtn"
         tools:ignore="MissingConstraints"
         tools:layout_editor_absoluteX="145dp"
-        tools:layout_editor_absoluteY="512dp" />
+        tools:layout_editor_absoluteY="556dp" />
 
     <LinearLayout
         android:id="@+id/socialicons"
@@ -130,4 +137,33 @@
 
     </LinearLayout>
 
+    <TextView
+        android:layout_width="159dp"
+        android:layout_height="50dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="397dp"
+        android:layout_marginEnd="224dp"
+        android:layout_marginBottom="283dp"
+        android:text="@string/Txt_no_cuenta"
+        android:textColor="@color/white" />
+
+    <TextView
+        android:id="@+id/Txt_registrarme"
+        android:layout_width="wrap_content"
+        android:layout_height="57dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="209dp"
+        android:layout_marginTop="396dp"
+        android:layout_marginEnd="31dp"
+        android:layout_marginBottom="276dp"
+        android:text="@string/Txt_registrarme"
+        android:textColor="@color/white"
+        android:textStyle="bold" />
 </RelativeLayout>

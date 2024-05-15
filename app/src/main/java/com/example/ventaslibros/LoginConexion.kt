@@ -30,11 +30,11 @@ class LoginConexion : AppCompatActivity() {
             validarInfo()
         }
 
-        /*
         binding.TxtRegistrarme.setOnClickListener {
-            startActivity(Intent(this@Login_email, Registro_email::class.java))
+            startActivity(Intent(this@LoginConexion, RegistroEmail::class.java))
         }
 
+/*
         binding.TvRecuperar.setOnClickListener {
             startActivity(Intent(this@Login_email, RecuperarPassword::class.java))
         }*/
